@@ -1,22 +1,26 @@
 {
   "name": "ptzcamera",
-  "version": "1.0.0",
-  "description": "PTZCamera in Node.js",
+  "version": "0.1.0",
+  "description": "PTZCamera with Node.js in Windows",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nova76/PTZCamera.git"
   },
   "keywords": [
-    "PTZ"
+    "PTZ",
+    "Camera"
   ],
   "author": "Frey István <fi76account@gmail.com> (http://devblog.embertelen.hu)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/nova76/PTZCamera/issues"
   },
-  "homepage": "https://github.com/nova76/PTZCamera#readme"
+  "homepage": "https://github.com/nova76/PTZCamera#readme",
+  "dependencies": {
+    "edge": "^0.10.1"
+  }
 }
